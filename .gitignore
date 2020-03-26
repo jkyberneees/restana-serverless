@@ -132,3 +132,5 @@ $RECYCLE.BIN/
 samconfig.toml
 
 .aws-sam/
+
+package-lock.json
