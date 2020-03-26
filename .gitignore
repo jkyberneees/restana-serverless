@@ -130,3 +130,5 @@ $RECYCLE.BIN/
 # Others
 *.sh
 samconfig.toml
+
+.aws-sam/
