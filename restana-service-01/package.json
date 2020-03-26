@@ -11,7 +11,6 @@
     "serverless-http": "^2.3.2"
   },
   "scripts": {
-    "invoke-hi": "sam local invoke HelloWorldFunction --event events/event.json"
   },
   "devDependencies": {
     "standard": "^14.3.3"
