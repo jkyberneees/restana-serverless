@@ -30,7 +30,7 @@ Outputs:
   # https://github.com/awslabs/serverless-application-model/blob/master/docs/internals/generated_resources.rst#api
   Http:
     Description: "API Gateway endpoint URL for Prod stage for Service function"
-    Value: !Sub "https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod/hi"
+    Value: !Sub "https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod/"
   ServiceFunction:
     Description: "Service Lambda Function ARN"
     Value: !GetAtt ServiceFunction.Arn

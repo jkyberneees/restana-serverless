@@ -56,7 +56,7 @@ The SAM CLI can also emulate your application's API. Use the `sam local start-ap
 
 ```bash
 sam local start-api
-curl http://localhost:3000/hi
+curl http://localhost:3000/hi # hit "GET /hi" service route
 ```
 
 The SAM CLI reads the application template to determine the API's routes and the functions that they invoke. The `Events` property on each function's definition includes the route and method for each path.
